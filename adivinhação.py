@@ -52,7 +52,7 @@ while (first_try != secret_number):
         clear()
     elif first_try < secret_number:
         print("oh no! Wrong number")
-        print("Tip: The secret number is lower than the one that you chose")
+        print("Tip: The secret number is higher than the one that you chose")
         print(secret_number)
         time.sleep(1)
         clear()
